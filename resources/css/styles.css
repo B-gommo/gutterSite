@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --color1: #eceeed;
+    --color2: rgb(75, 74, 74);
+    --color3: rgba(192, 181, 166, 0.6);
+    --color4: white;
+    --color5: orange;
+}
+
+header {
+    width: 100%;
+    border-bottom: solid 1px var(--color2);
+    background-color: var(--color1);
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+header .logo {
+    color: var(--color2);
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header nav ul {
+    display: flex;
+}
+
+nav li {
+    padding-left: 3.5rem;
+    list-style-type: none;
+    text-align: center;
+
+}
+
+li a {
+    text-decoration: none;
+    color: var(--color2);
+    font-weight: 700;
+}
+
+#banner {
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 100%;
+    color: var(--color1);
+    border-bottom: solid 1px var(--color2);
+    padding: 2rem;
+    color: var(--color2);
+}
+
+#about-us {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    row-gap: 0.5rem;
+    align-items: center;
+    padding: 2rem;
+    background-color: var(--color3);
+    border-radius: 15px;
+}
+
+#about-us h1,
+#about-us p {
+    text-shadow: 1px 1px 3px var(--color4);
+    font-weight: 700;
+    color: var(--color2);
+
+}
+
+#about-us button {
+    appearance: none;
+    -webkit-appearance: none;
+    padding: 10px;
+    border: none;
+    background-color: var(--color5);
+    color: var(--color2);
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+#services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 4rem 5%;
+    background-color: var(--color1);
+    gap: 4rem 4rem;
+}
+
+
+.service {
+    display: flex;
+    background-color: var(--color4);
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.service-content {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-right: 1rem;
+    color: var(--color2);
+
+}
+
+#equipment {
+    background-color: var(--color2);
+    color: var(--color1);
+    text-align: center;
+}
+
+#equipment .equipment-header h2 {
+    font-size: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+#equipment .equipment-header h3 {
+    padding-bottom: 3rem;
+}
+
+.equipment-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 3rem;
+}
+
+#contact-us {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 0.5rem;
+    width: 50%;
+    padding-bottom: 2rem;
+}
+
+.contacts img,
+p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon {
+    height: 1.5rem;
+    width: auto;
+}
+
+.form {
+    width: 40%;;
+}
+
+.form-style {
+    padding: 10px;
+    border: 1px solid var(--color2);
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.text-area {
+    resize: vertical;
+}
+
+button.form-style {
+    appearance: none;
+    -webkit-appearance: none;
+    padding: 10px;
+    border: none;
+    background-color: var(--color5);
+    color: var(--color2);
+    font-weight: 600;
+    border-radius: 5px;
+    width: 100%;
+}
+
+footer {
+    background-color: var(--color3);
+    height: 75px;
+    width: 100%;
+    color: var(--color12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/css/styles.css" type="text/css">
+    <title>Gutters 'R' us</title>
+</head>
+
+<body>
+    <header>
+        <p class="logo">Gutters R us</p>
+        <nav>
+            <ul>
+                <li><a href="#about-us">About us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact-us">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="banner">
+            <div id="about-us">
+                <h1>Quality gutter cleaning services in Bristol</h2>
+                    <p>Family run business in Bristol and surrounding areas. We specialize in gutter cleaning services
+                        and exterior maintenance.
+                        With 20 years experience in the roofing an exteriors business gutters R us can accommodate tasks
+                        big and small!</p>
+                    <button>Contact us</button>
+            </div>
+        </div>
+        </div>
+        <div id="services">
+            <div class="service">
+                <div class="service-content">
+                    <h2>Cleaning</h2>
+                    <h3>Gutter cleaning and waste removal.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                        do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+                </div>
+                <div class="image-container">
+                    <img src="./resources/img/service1.jpg" />
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-content">
+                    <h2>Repair</h2>
+                    <h3>Gutter repair and maintenanceLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+                </div>
+                <div class="image-container">
+                    <img src="./resources/img/service2.jpg" />
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-content">
+                    <h2>Driveway pressure wash</h2>
+                    <h3>Renew your driveway with our pressure 3000 machineLorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+                </div>
+                <div class="image-container">
+                    <img src="./resources/img/service3.jpg" />
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-content">
+                    <h2>Exteriors</h2>
+                    <h3>Refresh old walls with a pressure cleanLorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+                </div>
+                <div class="image-container">
+                    <img src="./resources/img/service4.jpg" />
+                </div>
+            </div>
+        </div>
+        <div id="equipment">
+            <div class="equipment-header">
+                <h2>Our equipment</h2>
+                <h3>Wide range of specialized equipment to meet the task at hand</h3>
+            </div>
+            <div class="equipment-image-container">
+                <div class="equipment-image">
+                    <img src="./resources/img/equipment1.jpg" />
+                </div>
+                <div class="equipment-image">
+                    <img src="./resources/img/equipment2.jpg" />
+                </div>
+                <div class="equipment-image">
+                    <img src="./resources/img/equipment3.jpg" />
+                </div>
+                <div class="equipment-image">
+                    <img src="./resources/img/equipment4.jpg" />
+                </div>
+            </div>
+        </div>
+        <div id="contact-us">
+            <div class="contacts">
+                <div>
+                    <h3>Contact us directly</h3>
+                </div>
+                <div>
+                    <img class="icon" src="./resources/img/phone.png" />
+                    <p>01273 ######</p>
+                </div>
+                <div>
+                    <img class="icon" src="./resources/img/phone.png" />
+                    <p>01273 ######</p>
+                </div>
+                <div>
+                    <img class="icon" src="./resources/img/email.png" />
+                    <p>guttersrus@####.com</p>
+                </div>
+            </div>
+            <div class="form">
+                <div>
+                    <h3>Or fill in a contact form below</h3>
+                </div>
+                <form id="contact-form" action="https://formspree.io/f/xrgvqgno" method="POST">
+                    <input class="form-style" name="name" placeholder="Name">
+                    <input class="form-style" type="email" name="email" placeholder="Email">
+                    <textarea class="form-style text-area" name="message" placeholder="Insert your message here"></textarea>
+                    <button class="form-style" type="submit">Submit</button>
+                </form>
+            </div>    
+        </div>
+    </main>
+    <footer>
+        <p>Copyright<span>&copy;</span> GuttersRus 2023 All rights reserved.</p>
+    </footer>
+    <script>
+    document.querySelector('form').onsubmit = e => {
+        e.target.submit();
+        e.target.reset();
+        return false;
+     };
+     document.querySelector(".text-area").on('keydown input')
+    </script>
+</body>
+
+</html>
