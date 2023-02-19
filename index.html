@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./resources/css/styles.css" type="text/css">
     <title>Gutters 'R' us</title>
 </head>
@@ -13,16 +16,15 @@
         <p class="logo">Gutters R us</p>
         <nav>
             <ul>
-                <li><a href="#about-us">About us</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#contact-us">Contact us</a></li>
+                <li><a href="contact.html">Contact us</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div id="banner">
-            <div id="about-us">
-                <h1>Quality gutter cleaning services in Bristol</h2>
+        <div class="banner-desktop">
+            <div class="about-us-desktop">
+                <h1 id="about-us">Quality gutter cleaning services in Bristol</h2>
                     <p>Family run business in Bristol and surrounding areas. We specialize in gutter cleaning services
                         and exterior maintenance.
                         With 20 years experience in the roofing an exteriors business gutters R us can accommodate tasks
@@ -31,12 +33,25 @@
             </div>
         </div>
         </div>
-        <div id="services">
+        <div class="banner-mobile">
+            <div class="mobile-banner-image"></div>
+            <div class="about-us-mobile">
+                <h1 id="about-us">Quality gutter cleaning services in Bristol</h2>
+                    <p>Family run business in Bristol and surrounding areas. We specialize in gutter cleaning services
+                        and exterior maintenance.
+                        With 20 years experience in the roofing an exteriors business gutters R us can accommodate tasks
+                        big and small!</p>
+                    <button>Contact us</button>
+            </div>
+        </div>
+        </div>
+        <h2 id="services" class="headings">Our Services</h2>
+        <div class="services-desktop">
             <div class="service">
                 <div class="service-content">
                     <h2>Cleaning</h2>
-                    <h3>Gutter cleaning and waste removal.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                        do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+                    <p>Gutter cleaning and waste removal.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                        do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 <div class="image-container">
                     <img src="./resources/img/service1.jpg" />
@@ -45,8 +60,8 @@
             <div class="service">
                 <div class="service-content">
                     <h2>Repair</h2>
-                    <h3>Gutter repair and maintenanceLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+                    <p>Gutter repair and maintenanceLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 <div class="image-container">
                     <img src="./resources/img/service2.jpg" />
@@ -55,8 +70,8 @@
             <div class="service">
                 <div class="service-content">
                     <h2>Driveway pressure wash</h2>
-                    <h3>Renew your driveway with our pressure 3000 machineLorem ipsum dolor sit amet, consectetur
-                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+                    <p>Renew your driveway with our pressure 3000 machineLorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 <div class="image-container">
                     <img src="./resources/img/service3.jpg" />
@@ -65,17 +80,43 @@
             <div class="service">
                 <div class="service-content">
                     <h2>Exteriors</h2>
-                    <h3>Refresh old walls with a pressure cleanLorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+                    <p>Refresh old walls with a pressure cleanLorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 <div class="image-container">
                     <img src="./resources/img/service4.jpg" />
                 </div>
             </div>
         </div>
-        <div id="equipment">
+        <div class="services-mobile">
+                <div class="service-content-1 service-content-mobile">
+                    <div class="text-box-mobile"><h2>Cleaning</h2>
+                    <p>Gutter cleaning and waste removal.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                        do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="service-content-2 service-content-mobile">
+                    <div class="text-box-mobile"><h2>Repair</h2>
+                    <p>Gutter repair and maintenanceLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="service-content-3 service-content-mobile">
+                    <div class="text-box-mobile"><h2>Driveway pressure wash</h2>
+                    <p>Renew your driveway with our pressure 3000 machineLorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="service-content-4 service-content-mobile">
+                    <div class="text-box-mobile"><h2>Exteriors</h2>
+                    <p>Refresh old walls with a pressure cleanLorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+        </div>
+        <h2 class="headings">Our equipment</h2>
+        <div class="equipment">
             <div class="equipment-header">
-                <h2>Our equipment</h2>
                 <h3>Wide range of specialized equipment to meet the task at hand</h3>
             </div>
             <div class="equipment-image-container">
@@ -93,7 +134,7 @@
                 </div>
             </div>
         </div>
-        <div id="contact-us">
+        <div class="contact-us">
             <div class="contacts">
                 <div>
                     <h3>Contact us directly</h3>
